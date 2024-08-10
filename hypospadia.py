@@ -101,10 +101,10 @@ if submit_button:
 
         # Plot SHAP summary and display it in Streamlit  
         st.subheader("Prediction Result")  
-        st.write("'1' means occurrence of postsurgery complications")
-        st.write("'0' means no occurrence of posturgery complications")
+        st.caption("'1' means occurrence of postsurgery complications, '0' means no occurrence of posturgery complications")
         st.write(f"Predicted Result: {prediction[0]}")  # Display prediction  
-        
+
+        st.divider()
     
         # Create a waterfall plot for the first prediction  
         st.subheader("SHAP Value Plot")
