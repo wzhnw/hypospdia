@@ -104,6 +104,7 @@ if submit_button:
         st.caption("'1' means occurrence of postsurgery complications, '0' means no occurrence of posturgery complications")
         st.write(f"Predicted Result: {prediction[0]}")  # Display prediction  
 
+        
         st.divider()
     
         # Create a waterfall plot for the first prediction  
